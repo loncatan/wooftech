@@ -166,7 +166,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("dog_background.jpg") no-repeat center;
+    background: url("belgian_2_background.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -565,9 +565,10 @@ footer{
     color: #fff;
     text-align: center;
 }
-footer span a{
-    color: crimson;
-    text-decoration: none;
+footer span a img{
+    height: 50px;
+    width: 50px;
+    margin-right: 1em;
 }
 footer span a:hover{
     text-decoration: underline;
