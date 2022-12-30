@@ -46,6 +46,38 @@ else{
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
 </head>
+
+<!-- Messenger Chat Plugin Code -->
+<div id="fb-root"></div>
+
+<!-- Your Chat Plugin code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "648388201952243");
+  chatbox.setAttribute("attribution", "biz_inbox");
+</script>
+
+<!-- Your SDK code -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v15.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
 <body>
     <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
@@ -123,7 +155,7 @@ else{
                         <i><img src="images/soldier.png" alt=""></i>
                         <div class="text">Detection, Search and Rescue Training</div>
                         <p>Learn more about our services</p>
-                    </div>
+                    </div>                                                  
                 </div>
                </div>
             </div>
@@ -160,7 +192,7 @@ else{
                     <div class="bars">
                         <div class="info">
                             <span>Communication</span>
-                            <span>100%</span>
+                            <span>95%</span>
                         </div>
                         <div class="line Communication"></div>
                     </div>
@@ -176,21 +208,21 @@ else{
                     <div class="bars">
                         <div class="info">
                             <span>Technical Aspect</span>
-                            <span>75%</span>
+                            <span>80%</span>
                         </div>
                         <div class="line Technical_Aspect"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>Costumer Service</span>
-                            <span>85%</span>
+                            <span>80%</span>
                         </div>
                         <div class="line Costumer_Service"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>MS Office</span>
-                            <span>80%</span>
+                            <span>95%</span>
                         </div>
                         <div class="line ms_office"></div>
                     </div>
@@ -199,28 +231,28 @@ else{
                     <div class="bars">
                         <div class="info">
                             <span>Team Work</span>
-                            <span>90%</span>
+                            <span>95%</span>
                         </div>
                         <div class="line Team_Work"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>Creativity</span>
-                            <span>75%</span>
+                            <span>90%</span>
                         </div>
                         <div class="line Creativity"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>Networking</span>
-                            <span>85%</span>
+                            <span>80%</span>
                         </div>
                         <div class="line Networking"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>Analytical</span>
-                            <span>80%</span>
+                            <span>90%</span>
                         </div>
                         <div class="line Analytical"></div>
                     </div>
@@ -306,7 +338,6 @@ else{
             </div>
         </div>
     </section>
-
 
     <!-- contact section start -->
     <section class="contact" id="contact">
