@@ -384,16 +384,16 @@ section .title::after{
     width: 95%;
 }
 .skills-content .right .Core_Strength::before{
-    width: 80%;
+    width: 90%;
 }
 .skills-content .right .Technical_Aspect::before{
     width: 80%;
 }
 .skills-content .right .Costumer_Service::before{
-    width: 90%;
+    width: 80%;
 }
 .skills-content .right .ms_office::before{
-    width: 85%;
+    width: 95%;
 }       
 .skills-content .right .Team_Work::before{
     width: 95%;
